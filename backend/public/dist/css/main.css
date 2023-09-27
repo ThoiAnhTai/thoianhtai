@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.header_navbar
+{
+    background-color: #e16f0b;
+line-height: 40px;
+    height: 40px;
+    z-index: 200;
+    
+}
+.search
+{
+    border: none;
+    border-radius: 30%;
+    background-color: #e16f0b;
+    width: 35px;
+    height: 35px;
+}
+.search i{
+    padding-left: 5px;
+}
+.topbar_search
+{
+    padding-top: 20px;
+    text-align: center;
+}
+.topbar_search input{
+    outline: none;
+    padding: 6px 12px;
+    border: none;
+    border-bottom: 0.1px solid #333;
+    width: 50%;
+  
+ }
+i{
+    padding-right: 7px;
+    
+}
+a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: unset;;
+}
+ul{
+    list-style: none;
+}
+.header_navbar2
+{
+    display: flex;
+}
+.header_navbar2_icon
+{
+    width: 50px;
+    font-size: larger;
+}
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_navbar_item
+{
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: inline-block;
+    text-decoration: none;
+}
+.header_navbar_link
+{
+    
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li{
+   
+    margin: 0 15px;
+    list-style: none;   
+    float: left;
+}
+.menu ul>li:last-child{
+    border: none;
+}
+.menu ul li:hover{
+    background-color:#a76023 ;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menu1
+{
+    position: relative;
+}
+
+.menu2 ul{
+    display: none;
+    position: absolute;
+    
+}
+.menu2{
+    font-size: 0.9rem;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.menu2:hover ul
+{
+    display: block;
+    background-color: #e16f0b;
+}
+.menu2:hover ul li{
+    border-bottom: 1px solid #999;
+    text-align: center;
+    padding: 5px;
+}
+.menu{
+    background-color:  #e16f0b;
+    line-height: 50px;
+    height: 50px;
+}
